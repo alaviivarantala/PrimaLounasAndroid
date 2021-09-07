@@ -14,7 +14,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MenuItem extends AbstractItem<MenuItem.ViewHolder> {
+public class MenuItem extends AbstractItem<MenuItem, MenuItem.ViewHolder> {
 
     private String menuItemDay;
     private String menuItemFirst = "";

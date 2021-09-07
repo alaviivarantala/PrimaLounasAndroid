@@ -5,12 +5,10 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.RemoteViews;
 
 import com.primalounas.Networking.GetFoodMenuService;
-import com.primalounas.Objects.MenuItem;
 
 import org.apache.poi.hwpf.HWPFDocument;
 import org.jetbrains.annotations.NotNull;
@@ -19,9 +17,7 @@ import java.io.BufferedInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
